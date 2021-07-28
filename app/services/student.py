@@ -18,6 +18,7 @@ class Student_services:
     @schema.validate(students)
     @handle_error
     def add_student():
+        print("i made a change")
         data = request.get_json()
         id = data["id"]
         name = data["name"]
