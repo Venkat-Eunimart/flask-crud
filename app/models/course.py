@@ -8,5 +8,3 @@ class Courses(db.Model):
 
     def __repr__(self):
         return f"Course('id:{self.id}','course:{self.course}','student_id:{self.student_id}')"
-db.create_all()
-db.session.commit()
