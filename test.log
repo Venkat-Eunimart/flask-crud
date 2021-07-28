@@ -1,0 +1,427 @@
+
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 10:50:33] "[35m[1mPOST /addstudent HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '2', 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [24/Jun/2021 10:50:59] "POST /addstudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'course': 'maths', 'student_id': '1'}}
+INFO:flask_jsonschema_validator.jsonschemavalidator:Reading schema from schemas\course.json
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:25:01] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'course': 'maths', 'student_id': '1'}}
+DEBUG:app:"Inserted Successfully"
+
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:27:28] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 1, 'course': 'maths', 'student_id': '1'}}
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:27:36] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': '1'}}
+DEBUG:app:"Inserted Successfully"
+
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:27:40] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 'dd', 'course': 'maths', 'student_id': '1'}}
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:27:50] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+DEBUG:app:{'param': {}, 'body': {'id': '1'}}
+DEBUG:app:succesfully_deleted
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:29:13] "DELETE /dstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 09:29:20] "POST /addstudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\routes\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\routes\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\routes\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\routes\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flask_jsonschema_validator.jsonschemavalidator:Reading schema from schemas\course.json
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 11:12:13] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:flask_jsonschema_validator.jsonschemavalidator:Reading schema from schemas\course.json
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 11:15:21] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\util\\logging.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '2', 'course': 'maths', 'student_id': '1'}}
+DEBUG:app:"Inserted Successfully"
+
+INFO:werkzeug:127.0.0.1 - - [25/Jun/2021 11:16:47] "POST /addcourse HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 409-048-163
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "Student('id:2','name:ani','emailid:ani@gmail.com')"
+}
+
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:23:13] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '2'}}
+DEBUG:app:succesfully_deleted
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:23:21] "DELETE /dstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '2', 'course': 'maths', 'student_id': '1'}}
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:23:26] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 409-048-163
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': '1'}}
+DEBUG:app:{
+  "Lerror": "Error validating against schema", 
+  "errors": [
+    "'1' is not of type 'number'"
+  ]
+}
+
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:25:11] "POST /addcourse HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 409-048-163
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\student.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 409-048-163
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:30:51] "[35m[1mPOST /addstudent HTTP/1.1[0m" 500 -
+DEBUG:app:{'param': {}, 'body': {'id': '5', 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:31:05] "POST /addstudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\student.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 409-048-163
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '6', 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:{
+  "Lerror": "Error validating against schema", 
+  "errors": [
+    "'6' is not of type 'number'"
+  ]
+}
+
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:32:04] "POST /addstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 6, 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2021 16:32:13] "POST /addstudent HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 09:28:47] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '4'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 09:29:03] "GET /student?id=4 HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '1'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "Student('id:1','name:ani','emailid:ani@gmail.com')"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 09:29:09] "GET /student?id=1 HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 09:29:12] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': '1'}}
+DEBUG:app:{
+  "Lerror": "Error validating against schema", 
+  "errors": [
+    "'1' is not of type 'number'"
+  ]
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 09:29:35] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 1}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 09:29:42] "POST /addcourse HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': 6, 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:24:59] "POST /addstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '6'}}
+DEBUG:app:succesfully_deleted
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:08] "DELETE /dstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 6, 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:12] "POST /addstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 1}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:18] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '2', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:22] "PUT /updatestudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:33] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:44] "PUT /updatestudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '1'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "Student('id:1','name:ani','emailid:ani@gmail.com')"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:25:52] "GET /student?id=1 HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:26:03] "PUT /updatestudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\student.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:Successfully updated
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:26:31] "PUT /updatestudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\student.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': 1, 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:Successfully updated
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:26:50] "PUT /updatestudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:26:57] "PUT /updatestudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\student.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:{
+  "Lerror": "Error validating against schema", 
+  "errors": [
+    "'1' is not of type 'number'"
+  ]
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:27:16] "PUT /updatestudent HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': 1, 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:Successfully updated
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:28:07] "PUT /updatestudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 1}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:28:12] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:28:24] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 2}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:28:40] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:28:53] "POST /addstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 2}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:28:57] "POST /addcourse HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\student.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 2}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:30:02] "POST /addcourse HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 1, 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:Successfully updated
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:30:19] "PUT /updatestudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': '1', 'name': 'anish', 'emailid': 'anish@gmail.com'}}
+DEBUG:app:{
+  "Lerror": "Error validating against schema", 
+  "errors": [
+    "'1' is not of type 'number'"
+  ]
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:30:26] "PUT /updatestudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "Student('id:2','name:ani','emailid:ani@gmail.com')"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:31:03] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 2}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:31:09] "POST /addcourse HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': 2, 'course': 'maths', 'student_id': 2}}
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:31:20] "[35m[1mPOST /addcourse HTTP/1.1[0m" 500 -
+DEBUG:app:{'param': {}, 'body': {'id': 1, 'course': 'maths', 'student_id': 2}}
+DEBUG:app:"Inserted Successfully"
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:31:57] "POST /addcourse HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\venkatachalam\\Documents\\flaskprojects\\app\\services\\course.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 102-862-305
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:app:{'param': {}, 'body': {'id': '2'}}
+DEBUG:app:succesfully_deleted
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:32:17] "DELETE /dstudent HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:32:22] "GET /student?id=2 HTTP/1.1" 200 -
+DEBUG:app:{'param': {'id': '2'}, 'body': {'id': '2'}}
+DEBUG:app:{
+  "Students": "None"
+}
+
+INFO:werkzeug:127.0.0.1 - - [29/Jun/2021 15:32:23] "GET /student?id=2 HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-666-140
+DEBUG:app:{'param': {}, 'body': {'id': 6, 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:"error occured"
+
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2021 09:37:13] "POST /addstudent HTTP/1.1" 200 -
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-666-140
+INFO:werkzeug: * Detected change in '/home/venkatachalam/Desktop/flaskprojects/app/models/student.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-666-140
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 153-666-140
+DEBUG:app:{'param': {}, 'body': {'id': 6, 'name': 'ani', 'emailid': 'ani@gmail.com'}}
+DEBUG:app:Inserted Successfully
+INFO:werkzeug:127.0.0.1 - - [28/Jul/2021 09:40:11] "POST /addstudent HTTP/1.1" 200 -
